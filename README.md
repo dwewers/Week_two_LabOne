@@ -4,6 +4,7 @@ Below is the code for the pair project task A
 
 var nOne = 50; //Creates a variable "nOne" and sets it to '50' that can be used throughout the code
 var nTwo = 10;  //Creates a variable "nTwo" and sets it to '10' that can be used throughout the code
+
 var sum = nOne + nTwo; //Creates a variable called "sum" which is the sum of the declared variables
 var subtract = nOne - nTwo; //Creates a variable called "subtract" which is the output of one variable subtracted from the other
 var divide = nOne / nTwo; //Creates a variable called "divide" which is the product of one variable divided by the other
