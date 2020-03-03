@@ -1,50 +1,21 @@
 # Week_two_LabOne
+*Code is in index.js*
 
-Below is the code for the pair project task A
+The first thing we learned was setting a value to a created variable. This meant we could impliment this into our code when trying to form mathmatical equations. An example of this could be "var firstNumber = 10." This means that the value of the variable is equal to 10. If we were to call this later on in the code, we would be calling it to the value of 10. If we created another variable such as "var secondNumber = 25," we could combine it with another variable however we need to, to create a third variable. 
+Below is an example of this:
 
-var nOne = 50; //Creates a variable "nOne" and sets it to '50' that can be used throughout the code
-var nTwo = 10;  //Creates a variable "nTwo" and sets it to '10' that can be used throughout the code
+var firstNumber = 10;
+var secondNumber = 25;
+var subtract = secondNumber - firstNumber;
 
-var sum = nOne + nTwo; //Creates a variable called "sum" which is the sum of the declared variables
-var subtract = nOne - nTwo; //Creates a variable called "subtract" which is the output of one variable subtracted from the other
-var divide = nOne / nTwo; //Creates a variable called "divide" which is the product of one variable divided by the other
-var percent = nOne % nTwo; //Creates a variable called "percent" which is the remainder of the one variable diveded by the other
-var multiply = nOne * nTwo; //Creates a variable called "multiply" which is the product of one variable multiplied by the other
- 
-console.log("sum of nOne and nTwo");// prints to the console the equation we want to answer
-console.log(sum); //prints to the console the value of the variable 
+Above, I have created a variable called "subtract," the value of this variable is equal to the product of the variable 'firstNumber' subtracted from 'secondNumber,' which in this case would come to the value of 15. This means that 'subtract = 15'
+We can then call this to the console with the code below:
 
-console.log("subtract nTwo from nOne");// prints to the console the equation we want to answer
-console.log(subtract); //prints to the console the value of the variable
+console.log(subtract);
 
-console.log("divide nOne by nTwo");// prints to the console the equation we want to answer
-console.log(divide); //prints to the console the value of the variable
+This calls the variable 'subtract' to print to the console, which in this case would print the value of 15. We can also print the equation that we are working out with the code : console.log("subtract firstNumber from secondNumber");
 
-console.log("Remainder of nOne divided by nTwo");// prints to the console the equation we want to answer
-console.log(percent); //prints to the console the value of the variable
+When it came to forming a larger equation that required us to call the variables multiple times in the same equation with multiple operators, we learned that it is important to add brackets to group specific parts of the equation. Although the one we were working with gave us the correct answer, more often than not, it is likely to come up with the wrong number since it isnt formatted properly. This means that we could effect out whol ecod just with a simpl mistake further up. We resolved this by going through and putting brackets in the correct places as good practice for future equations.
 
-console.log("nOne multiplied by nTwo");// prints to the console the equation we want to answer
-console.log(multiply); //prints to the console the value of the variable
-
-below is the code for task B
-
-var nOne = 10; //creates a variable called "nOne" and sets it to the value of '10'
-var nTwo = 20; //creates a variable called "nTwo" and sets it to the value of '20'
-var nThree = 30; //creates a variable called "nThree" and sets it to the value of '30'
-var nFour = 40; //creates a variable called "nFour" and sets it to the value of '40'
-
-var nCalc = nOne / nTwo + nThree / nOne - nFour % nFour; 
-// creates a variable of the equation we want to answer so that we dont have to keep writing it out
-
-var nCalcTwo = (nOne / nTwo) + (nThree / nOne) - (nFour % nFour);
-// creates a variable of the equation we want to answer with grouping operators
-
-console.log("Result of nOne / nTwo + nThree / nOne - nFour % nFour"); // prints to the console the equation we want to answer
-console.log(nCalc);//Prints to the console the numerical value of 'nCalc'
-
-console.log("Result of nOne / nTwo + nThree / nOne - nFour % nFour with grouping operators")
-console.log(nCalcTwo);//Prints to the console the numerical value of 'nCalcTwo'
-
-
-
+It was also important that we made sure that we saved our progress before putting "node index.js" in the console as we were originally getting an error. This issue was easily picked up on and fixed by saving each time we changed finished changes in the code before trying to execute it. This is important as we could make the same mistake in future tasks. By not identifying this easy mistake, we could waste time going through our code trying to figure out where we made a mistake, if its not doing what its suppose to do.
 
