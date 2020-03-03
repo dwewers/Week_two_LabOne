@@ -1,36 +1,23 @@
-console.log("Hello World");
+var numOne = 50; //Creates a variable "nOne" and sets it to '50' that can be used throughout the code
+var numTwo = 10;  //Creates a variable "nTwo" and sets it to '10' that can be used throughout the code
 
-var firstName = "Daniel"; //Assigning a variable called "firstName" to Daniel
-console.log(firstName); //Prints "Daniel" to console
+var sum = numOne + numTwo; //Creates a variable called "sum" which is the sum of the declared variables
+var subtract = numOne - numTwo; //Creates a variable called "subtract" which is the output of one variable subtracted from the other
+var divide = numOne / numTwo; //Creates a variable called "divide" which is the product of one variable divided by the other
+var multiply = numOne * numTwo; //Creates a variable called "multiply" which is the product of one variable multiplied by the other
+ // these variables are useful as we can call them later in the code, without having to type out the full value
 
-var lastName = "Ewers";
-console.log(lastName);
+console.log("sum of numOne and numTwo");// prints to the console the equation we want to answer
+console.log(sum); //prints to the console the value of the variable "sum"
 
-console.log(firstName + lastName); //Putting two together by adding + inbetween
+console.log("subtract numTwo from numOne");// prints to the console the equation we want to answer
+console.log(subtract); //prints to the console the value of the variable "subtract"
 
-var firstNumber = 15;
+console.log("divide numOne by numTwo");// prints to the console the equation we want to answer
+console.log(divide); //prints to the console the value of the variable "divide"
 
-var secondNumber = 25;
-
-console.log("secondNumber(25) + firstNumber(15)");// prints the equation to the console before the answer
-
-
-var sum = secondNumber + firstNumber; //Sum is equal to the sum of the two previous intergers "secondNumber + firstNumber"
-
-console.log(sum);
-
-console.log("secondNumber(25) - firstNumber(15)");
-
-var minus = secondNumber - firstNumber; //subtracts secondNumber from firstnumber and stores it as a variable called "minus"
-
-console.log(minus);
-
-var devide = secondNumber / firstNumber;
-
-console.log("secondNumber(25) / firstNumber(15)");
-
-console.log(devide);
-
+console.log("numOne multiplied by numTwo");// prints to the console the equation we want to answer
+console.log(multiply); //prints to the console the value of the variable 'multiply"
 
 
 
